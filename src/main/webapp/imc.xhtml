@@ -4,13 +4,18 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Calculo de IMC</title>
     </h:head>
     <h:body>
-        <br/>
-
-        <h:form>
-            <h:outputLabel value="Municipio"/>
+         <h:form>
+            <h:outputLabel value="Nome"/>
+            <h:outputText id="" value=""/>
+            <h:outputLabel value="Peso"/>
+            <h:outputText id="" value=""/>
+            <h:outputLabel value="Altura"/>
+            <h:outputText id="" value=""/>
+            
+            
             <h:selectOneMenu value="#{recadoCDIBean.recado.municipio}">
 
                 <f:selectItem itemValue="Escolha a Opção" noSelectionOption="true  "/>
